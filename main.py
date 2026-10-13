@@ -31,7 +31,7 @@ while True:
     success, img = cap.read()
     
     if not success:
-        print("kurcina")
+        print("Could not read a frame from the camera.")
         break
 
     img = img.copy()
